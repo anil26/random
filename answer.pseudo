@@ -1,0 +1,9 @@
+
+var max=15;
+var min=7;
+
+getRandom(name){
+  var randomNumber=Math.random()*(max-min) + min;
+
+  return (name + " " + randomNumber);
+}
